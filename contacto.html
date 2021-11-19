@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aurum - Contacto</title>
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+</head>
+<body>      
+
+<!-- MENU o ENCABEZADO-->
+    <header class="header-principal">             
+        <nav class="nav-principal">          
+            <div class="contenedor">
+                <spam class="icon-menu" id="btnMenu">
+                   <i class="fas fa-bars"></i>
+                </spam>
+            <div class="contenedor-logo">
+                <h1 class="logo"><a href="index.html" class="logo-link"> aurum </a></h1>
+            </div>  
+            <ul class="menu" id="menu">
+              <li class="menu-item"><a href="index.html" class="menu-link">Inicio</a></li>
+              <li class="menu-item"><a href="nosotros.html" class="menu-link">Nosotros</a></li>
+              <li class="menu-item"><a href="galeria_servicios.html" class="menu-link">Galerias</a></li>
+              <li class="menu-item"><a href="contacto.html" class="menu-link">Contacto</a></li>
+            </ul>                     
+            <div class="social-icon">
+              <a href="" class="social-icon-link"><span class="iconos"><i class="fab fa-instagram"></i></span></a>
+              <a href="" class="social-icon-link"><span class="iconos"><i class="fab fa-facebook"></i></span></a>
+              <a href="" class="social-icon-link"><span class="iconos"><i class="fab fa-twitter-square"></i></span></a>
+            </div>
+            </div>
+        </nav>                 
+    </header>
+<!-- Script despliegue de menu -->
+<script src="js/menu.js"></script>
+
+   <div class="contacto">  
+   <!-- MAPA google --> 
+     <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.297883481144!2d2.343371955759835!3d48.85252982614383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2zUGFyw61zLCBGcmFuY2lh!5e0!3m2!1ses!2sar!4v1572101383483!5m2!1ses!2sar" frameborder="0" style="border:0;" allowfullscreen=""></iframe>  
+   </div>
+
+<!--div contenedor de dos divs con columnas de 50%-->
+
+
+   <div class="contacto" class="background-contacto">
+            <div class="columna-50"></div>
+            <div class="formulario columna-50">
+            <!-- formulario de contacto -->
+            <form action="envia.php" method="post" class="form-consulta"> 
+              
+              <label>Nombre y apellido: <span>*</span>
+                <input type="text" name="nombre" placeholder="Nombre y apellido" class="campo-form" required>
+              </label>
+             
+              <label>Email: <span>*</span>
+                <input type="email" name="email" placeholder="Email" class="campo-form" required>
+              </label>
+    
+              <label>Consulta:
+                <textarea name="consulta" placeholder="Escriba su consulta" class="campo-form"></textarea>
+              </label>
+  
+              <input type="submit" value="Enviar" class="btn-form">
+            </form>
+          </div>
+   </div>
+</div>
+<!--div contenedor de dos divs con columnas de 50%-->
+
+<!-- MAPA y FORMULARIO DE CONTACTO -->     
+    <!-- <div class="contacto">
+            
+            <div class="columna_50">  
+            <!-- MAPA google 
+            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.297883481144!2d2.343371955759835!3d48.85252982614383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2zUGFyw61zLCBGcmFuY2lh!5e0!3m2!1ses!2sar!4v1572101383483!5m2!1ses!2sar"  frameborder="0" style="border:0;" allowfullscreen=""></iframe>  
+            </div>
+            
+            <div class="columna_50">
+            <!-- formulario de contacto 
+	          <form action="envia.php" method="post" class="form-consulta"> 
+          		
+              <label>Nombre y apellido: <span>*</span>
+        			  <input type="text" name="nombre" placeholder="Nombre y apellido" class="campo-form" required>
+	           	</label>
+	           
+             	<label>Email: <span>*</span>
+                <input type="email" name="email" placeholder="Email" class="campo-form" required>
+	           	</label>
+		
+		          <label>Consulta:
+	           		<textarea name="consulta" class="campo-form"></textarea>
+	           	</label>
+
+		          <input type="submit" value="Enviar" class="btn-form">
+	          </form>
+            </div>
+    </div> -->
+        
+<!-- BOTON FLOTANTE -->        
+<div class="btn-whatsapp">
+  <a href="https://api.whatsapp.com/send?phone=3764808819" target="_blank">
+  <img src="http://s2.accesoperu.com/logos/btn_whatsapp.png" alt="" width="55px">
+  </a>
+</div>
+        
+<!-- PIE DE PAGINA -->        
+<footer class="footer-principal">
+    <div class="contenedor">
+          <div class="columna-100-33">
+              <h2 class="titulo-columna">Acerca de nosotros</h2>
+              <p class="desc-columna"> Somos un emprendimiento familiar y hacemos nuestro trabajo de manera artesanal. Buscamos la excelencia en nuestros productos.</p>
+          </div>
+          <div class="columna-100-33">
+              <h2 class="titulo-columna"> Contacto </h2>
+              <p class="desc-columna"><i class="iconos2 fas fa-mobile-alt"></i>21231231321</p>
+              <p class="desc-columna"><i class="iconos2 far fa-envelope"></i>asñldjahsd@asjdhasd.info</p>
+          </div>
+          <div class="columna-100-33">
+              <h2 class="titulo-columna"> Siguenos en nuestras redes </h2>
+              <p class="desc-columna"><a href="" class="iconos2" target="_blank"><i class="iconos2 fab fa-instagram"></i>Siguenos</a></p>
+              <p class="desc-columna"><a href="" class="iconos2" target="_blank"><i class="iconos2 fab fa-facebook-square"></i>Siguenos</a></p>
+          </div>
+    </div>
+</footer>
+
+<!-- Script de iconos -->
+<script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+<!-- redirección CSS -->
+<link rel="stylesheet" href="css/estilo.css">
+
+</body>
+</html>
